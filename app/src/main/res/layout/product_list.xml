@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/prod_searchview"
+        android:layout_width="match_parent"
+        app:queryHint="Search a product"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_parent_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="4dp"
+        android:visibility="gone"
+        android:text="Parent Company"
+        android:textColor="#616161" />
+
+    <Spinner
+        android:id="@+id/parent_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/spinner_bg"
+        android:spinnerMode="dropdown"
+        android:visibility="gone" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/prod_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/stroke_button_primary"
+            android:gravity="center"
+            android:text="Done"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+</LinearLayout>

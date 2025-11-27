@@ -1,0 +1,79 @@
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="WMS.example.WMS.ui.activity.MainActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:layout_gravity="right"-->
+        <!--            android:layout_marginRight="50dp"-->
+        <!--            >-->
+
+        <!--    -->
+        <!--        <RelativeLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:gravity="end">-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/bell_icon"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_gravity="end"-->
+        <!--                android:drawableStart="@drawable/notifications"-->
+        <!--                android:gravity="end"-->
+        <!--                android:padding="15dp" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/notification_count"-->
+        <!--                android:layout_width="25dp"-->
+        <!--                android:layout_height="25dp"-->
+        <!--                android:layout_gravity="center"-->
+        <!--                android:layout_marginStart="30dp"-->
+        <!--                android:layout_marginTop="8dp"-->
+        <!--                android:background="@drawable/rounded_textview"-->
+        <!--                android:gravity="center"-->
+        <!--                android:visibility="gone"-->
+        <!--                android:textColor="@color/white" />-->
+
+        <!--        </RelativeLayout>-->
+
+        <!--        <de.hdodenhof.circleimageview.CircleImageView-->
+        <!--            android:id="@+id/profile_image"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginEnd="5dp"-->
+        <!--            android:padding="5dp"-->
+        <!--            android:src="@drawable/excel_logo"-->
+        <!--            app:civ_border_color="#FFF"-->
+        <!--            app:civ_border_width="2dp" />-->
+
+        <!--</LinearLayout>-->
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/content_main" />
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/fab"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|end"-->
+    <!--        android:layout_margin="@dimen/fab_margin"-->
+    <!--        />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <!-- Top Navigation Toolbar -->
+        <include
+            layout="@layout/top_navigation_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <!-- Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Product's Details"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#00008B"
+                android:textSize="22sp" />
+
+            <!-- Card Section -->
+            <androidx.cardview.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/spinner_border"
+                    android:padding="16dp">
+
+                    <!-- Reusable Row Component -->
+                    <!-- Batch Number -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Batch Number:"
+                            android:textColor="#555"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+
+                        <TextView
+                            android:id="@+id/batch_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B12345"
+                            android:textColor="#03076e"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+                    </LinearLayout>
+
+                    <!-- Tran Number -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tran Number:"
+                            android:textColor="#555"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+
+                        <TextView
+                            android:id="@+id/trans_no_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="T67890"
+                            android:textColor="#03076e"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+                    </LinearLayout>
+
+                    <!-- Tran Date -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tran Date:"
+                            android:textColor="#555"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+
+                        <TextView
+                            android:id="@+id/date_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="17-04-2025"
+                            android:textColor="#03076e"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+                    </LinearLayout>
+
+                    <!-- Bin No -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="16dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="From Bin Code:"
+                            android:textColor="#555"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+
+                        <TextView
+                            android:id="@+id/bin_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BIN456"
+                            android:textColor="#03076e"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/out_bin_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="16dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="To Bin Code:"
+                            android:textColor="#555"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+
+                        <TextView
+                            android:id="@+id/out_bin_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BIN456"
+                            android:textColor="#03076e"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/bin_code_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/bg_rounded_light_grey"
+                        android:padding="16dp"
+                        android:visibility="gone"
+                        android:elevation="2dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bin Code"
+                            android:textColor="#555"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:id="@+id/scantext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#03076e"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/roboto_bold"
+                            android:background="@drawable/bg_underline_blue"
+                            android:padding="8dp" />
+                    </LinearLayout>
+
+                    <!-- Scan Button -->
+                    <LinearLayout
+                        android:id="@+id/scan_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginTop="24dp"
+                        android:padding="8dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_gravity="center">
+
+                        <!-- Scan Icon -->
+                        <ImageView
+                            android:id="@+id/scan_icon"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/sc3"
+                            android:contentDescription="Scan Barcode"
+                            />
+
+                        <!-- Scan Text -->
+                        <TextView
+                            android:id="@+id/scan_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Click to Scan Barcode"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/roboto_medium"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/confirm_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="16dp"
+                        android:visibility="gone"
+                        android:gravity="center_vertical">
+
+                        <Button
+                            android:id="@+id/save"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="9dp"
+                            android:layout_marginEnd="9dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="5"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/stroke_button_blue"
+                            android:text="@string/confirm"
+                            android:textAllCaps="false"
+
+                            android:textColor="@color/white"
+                            android:visibility="visible"
+                            android:textSize="16sp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

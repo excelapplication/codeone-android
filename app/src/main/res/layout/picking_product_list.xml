@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrey">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <include
+            layout="@layout/top_navigation_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Product's Details "
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="#00008B"
+            android:textSize="20sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:background="@drawable/spinner_border"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Batch Number"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/pickbatch_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/black"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/hq_type_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Tran Number"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/picktrans_no_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/roboto_bold"/>
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/black"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/route_name_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tran Date"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto_bold"
+                        />
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/pickdate_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/roboto_bold"/>
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/black"
+                    />
+                <LinearLayout
+                    android:id="@+id/travel_mode_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bin No"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textColor="@color/black"
+                        />
+
+                    s<View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    />
+
+                    <TextView
+                        android:id="@+id/pickbin_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/roboto_bold"/>
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/black"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/scanbtn"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/sc3"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="150dp"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/black" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

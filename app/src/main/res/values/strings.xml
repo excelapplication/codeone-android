@@ -1,0 +1,300 @@
+<resources>
+    <string name="app_name">WMS</string>
+    <!-- Strings related to login -->
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_text">LOGIN</string>
+    <string name="WorkArea">TODAY\'S WORK AREA</string>
+    <string name="WorkType">TODAY\'S WORK TYPE</string>
+    <!--<string name="WorkArea">TODAYS WORK AREA  <font color="blue">&#x2762;   </font></string>-->
+    <!--<string name="sync">YOU HAVE NOT SYNC SINCE <font color="blue">&#128197;   </font></string>-->
+    <string name="sync">YOU HAVEN\'T SYNCED SINCE</string>
+    <string name="expense">Expenses</string>
+    <string name="expense_tag">Expense break up</string>
+    <string name="hq_type">HQ type</string>
+    <string name="route_patch">Route/Patch</string>
+    <string name="hq">HQ</string>
+    <string name="andheri_east">Andheri East</string>
+    <string name="travel_mode">Travel mode</string>
+    <string name="bike">Bike</string>
+    <string name="route_distance_km">Route distance(KM)</string>
+    <string name="_23">23</string>
+    <string name="tour_fare">Tour Fare</string>
+    <string name="u20b9140_00">₹140.00</string>
+    <string name="extra_distance_km">Extra Distance(KM)</string>
+    <string name="_5">5</string>
+    <string name="extra_distance_fare">Extra Distance Fare</string>
+    <string name="u20b945_00">₹45.00</string>
+    <string name="buttonText">SAVE AS DRAFT</string>
+    <string name="upload_bills_slips_tickets_reciepts">Upload bills/slips/tickets/reciepts</string>
+    <string name="toolbarHeadingText">Expenses for 22 April 2019</string>
+    <string name="expense_details_edittext_value">Write Value</string>
+    <string name="textview_hint">Expenses</string>
+    <string name="daily_allowance">Daily Allowance</string>
+    <string name="daily_allowance_value">₹165.00</string>
+    <string name="lodging_boarding">Lodging/Boarding</string>
+    <string name="lodging_boarding_value">₹0.00</string>
+    <string name="rupee_symbol">₹</string>
+    <string name="expense_message">Saved successfully</string>
+    <string name="total_expenses">TOTAL EXPENSE</string>
+    <string name="leave_application">Leave Application</string>
+    <string name="dcr_backdated">DCR Back-Dated Entry</string>
+    <string name="new_application"><b>New Application</b></string>
+    <string name="leave_type"><u>Leave type</u></string>
+    <string name="leave_time"><u>Leave time</u></string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="contact_details_during_leave_period"><u><b>CONTACT DETAILS DURING LEAVE PERIOD</b></u></string>
+    <string name="upload_medical_certificates_others"><u><b>UPLOAD MEDICAL CERTIFICATES/OTHERS</b></u></string>
+    <string name="enter_contact_name">Enter contact name</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_contact_number">Enter contact number</string>
+    <string name="save_as_draft">Save as draft</string>
+    <string name="tour_plan">Tour Plan</string>
+    <string name="other_activity">Other</string>
+    <string name="dcr_activity">Daily Call Report</string>
+    <string name="expense_activity">Expense Claim</string>
+    <string name="to_date">To</string>
+    <string name="pending_action_toolbar">Pending Action</string>
+    <string name="dcr_approval_toolbar">DCR Entry</string>
+    <string name="dcr_name">DCR</string>
+    <string name="approval_status">Send for approval</string>
+    <string name="work_type">Work type</string>
+    <string name="fieldWork">001</string>
+    <string name="holiday">007</string>
+    <string name="leave">004</string>
+    <string name="expense_claim_hd_status">E</string>
+    <string name="expense_claim_tr_type">I</string>
+    <string name="tour_plan_activity">Tour Plan</string>
+    <string name="meeting_point">Meeting Point</string>
+    <string name="tour_plan_work_type">WORK TYPE</string>
+    <string name="tour_plan_route_patch">ROUTE/PATCH</string>
+    <string name="city_town">CITY/TOWN</string>
+    <string name="tour_plan_hq_type">HQ TYPE</string>
+    <string name="customer_calls">CUSTOMER CALLS</string>
+    <string name="mode_of_transport">MODE OF TRANSPORT</string>
+    <string name="work_along">WORK ALONG</string>
+    <string name="tour_plan_save_as_draft">SAVE AS DRAFT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="tour_plan_toolbar">Create plan for %1$s</string>
+    <string name="confirm_tour_plan">Confirmed Plan for %1$s</string>
+    <string name="forward_tour_plan">Forwarded Plan for %1$s</string>
+    <string name="expenses_toolbar">Expenses for %1$s</string>
+    <string name="pending_toolbar">%1$s pending</string>
+    <string name="remark">Remarks - Maximum 100 letters</string>
+    <string name="send">Sent for approval</string>
+    <string name="leave_approval_toolbar">Leave</string>
+    <string name="visit"> visit</string>
+    <string name="visits"> visits</string>
+    <string name="expense_toolbar">Expense Entry</string>
+    <string name="hello">Hello, </string>
+    <string name="tourPlanApprovalToolbar">Tour Plan Entry</string>
+    <string name="home_page_display">%1$s/%2$s</string>
+    <string name="are_you_returning_today">Are you returning Today?</string>
+    <string name="MEDICO">Medico/</string>
+    <string name="name">Name</string>
+    <string name="product_detailing">PRODUCT DETAILING</string>
+    <string name="pspi">PSPI</string>
+    <string name="pob">POB</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="discard">Discard</string>
+    <string name="enter_remarks">Enter Remarks</string>
+    <string name="save">save</string>
+    <string name="title_activity_manager_tour_plan_calendar">ManagerTourPlanCalendarActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="approve">approve</string>
+    <string name="save_remarks">Save Remarks</string>
+    <string name="finalise_dcr">Finalise Dcr</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="sync_button">Sent Successfully</string>
+    <string name="transfer">TRANSFER</string>
+    <string name="putaway">PUTAWAY</string>
+    <string name="home">HOME</string>
+    <string name="picking">PICKING</string>
+    <string name="packing">Packing</string>
+    <string name="notification">Notifications</string>
+    <string name="approvals">Approvals</string>
+    <string name="submit">Submit</string>
+    <string name="approved_amount">Approved Amount</string>
+    <string name="deduction_amount">Deduction Amount</string>
+    <string name="_0">0</string>
+    <string name="view">View</string>
+    <string name="confirmation">Confirmations</string>
+    <string name="sync_project">Sync</string>
+    <string name="customer">Customer</string>
+    <string name="more_info">more info</string>
+    <string name="visited_total">Visited/Total</string>
+    <string name="deviated_working">Deviated/Working</string>
+    <string name="todo">TODO</string>
+    <string name="recent_applications">Recent Applications</string>
+    <string name="leave_status_year_2019_days">Leave status for Current year</string>
+    <string name="selected_product">SELECTED PRODUCT</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="display_status">Approval Status</string>
+    <string name="hello_user">Hello,</string>
+    <string name="user">User</string>
+    <string name="customer_homepage">%1$s%%</string>
+    <string name="logout">Logout</string>
+    <string name="customer_change">Customer Change</string>
+    <string name="ps_pi">PS/PI</string>
+    <string name="pending_action">Pending Action</string>
+    <string name="reports">Reports</string>
+    <string name="sales_reps_statistics">. STATISTICS</string>
+    <string name="missed">MISSED</string>
+    <string name="coverage">COVERAGE</string>
+    <string name="call_avg">CALL AVG</string>
+    <string name="work_details">WORK DETAILS</string>
+    <string name="stockist_calls">STOCKIST CALLS</string>
+    <string name="select_week">Select Week<font color="red"> *</font></string>
+    <string name="date_worked">Date Worked<font color="red"> *</font></string>
+    <string name="visit_type">Visit Type<font color="red"> *</font></string>
+    <string name="joint_working">Joint Working<font color="red"> *</font></string>
+    <string name="select_zm">Select ZM<font color="red"> *</font></string>
+    <string name="select_rm">Select RM<font color="red"> *</font></string>
+    <string name="select_se">Select SE<font color="red"> *</font></string>
+    <string name="route_name">Route Name<font color="red"> *</font></string>
+    <string name="repeat_missed">Pending Repeat Missed</string>
+    <string name="rsm">RSM</string>
+    <string name="se">SE</string>
+    <string name="asteriskred"><font color='#cc0029'>*</font></string>
+    <string name="travel_kms">TRAVEL KMS</string>
+    <string name="customer_type_visits"><![CDATA[CUSTOMER TYPE & VISITS]]></string>
+    <string name="discussion_in_brief">DISCUSSION IN BRIEF</string>
+    <string name="purpose_of_visit">PURPOSE OF VISIT</string>
+    <string name="comments_feedback"><![CDATA[COMMENTS & FEEDBACK]]></string>
+    <string name="area_planned_as_per_tour">Area Planned(As Per Tour)</string>
+    <string name="multiple_tour_plan">Multiple Tour plan for %1$s</string>
+    <string name="activity_type">ACTIVITY TYPE</string>
+    <string name="enter_activity_results">Enter Activity Results</string>
+    <string name="upload_images">UPLOAD IMAGES</string>
+    <string name="loading">Loading . .</string>
+    <string name="approval_pending">Approval Pending</string>
+    <string name="send_for_approval">Send For Approval</string>
+    <string name="msr_sync">Last Sales Update :- %1$s</string>
+    <string name="removal">Removal</string>
+    <string name="receipts">Reciepts</string>
+    <string name="handover">Handover</string>
+    <string name="requisition">Requisition</string>
+    <string name="visiting">Visiting</string>
+    <string name="handover_date">HANDOVER DATE</string>
+    <string name="handover_to">HANDOVER TO</string>
+    <string name="reason_for_handover">REASON FOR HANDOVER</string>
+    <string name="select_the_product_and_quantity">Select the product and quantity</string>
+    <string name="received_an_unlisted_consignment">Received an unlisted consignment?</string>
+    <string name="received_an_unlisted_product">Received an unlisted product?</string>
+    <string name="consignment">CONSIGNMENT</string>
+    <string name="new_consignment">NEW CONSIGNMENT</string>
+    <string name="consignment_date">CONSIGNMENT DATE</string>
+    <string name="received_date">RECEIVED DATE</string>
+    <string name="stock_qty">STOCK QTY.</string>
+    <string name="handover_qty">HANDOVER QTY.</string>
+    <string name="batch">Batch No.</string>
+    <string name="done">Done</string>
+    <string name="stock_qty_list">Stock Qty.</string>
+    <string name="handover_qty_select">Handover Qty.</string>
+    <string name="removing">Removing</string>
+    <string name="product_batch">Batch</string>
+    <string name="submitted_successfully">Submitted successfully</string>
+    <string name="reason_for_removal">Reason For Removal</string>
+    <string name="total">Total</string>
+    <string name="allowed_customers">Allowed Customers</string>
+    <string name="select_new_customer">ADD NEW CUSTOMER</string>
+    <string name="back_slash">/</string>
+    <string name="new_customer">NEW CUSTOMER</string>
+    <string name="manager_kpi_data">%1$s. STATISTICS</string>
+    <string name="team_s_kpi">Team\'s KPI</string>
+    <string name="bar_graph">Bar Graph</string>
+    <string name="pie_chart">Pie chart</string>
+    <string name="stack_chart">stk</string>
+    <string name="product">Product</string>
+    <string name="type">Type</string>
+    <string name="code">Code</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="enter_qty">Enter Qty.</string>
+    <string name="actual_qty">Actual Qty</string>
+    <string name="in_transit_consignment">IN-TRANSIT CONSIGNMENT</string>
+    <string name="add">+ Add</string>
+    <string name="select_a_leave_type_to_continue">Select a leave type to continue</string>
+    <string name="leave_cancellation">Leave Cancellation</string>
+    <string name="se_name">NAME</string>
+    <string name="approved_expense">APPROVED EXPENSE</string>
+    <string name="temporary_username_condition">If the username matches our records, you will receive an e-mail on your registered e-mail address with a temporary password to login.</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="change_your_temporary_password">Change your Temporary Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_temporary_password">Change Temporary Password</string>
+    <string name="return_to_login">Return to Login</string>
+    <string name="approved">APPROVED</string>
+    <string name="disapproved">DISAPPROVED</string>
+    <string name="pending">PENDING</string>
+    <string name="NA">NA</string>
+    <string name="select_the_brand">Select the Brand</string>
+    <string name="unlisted_doctor">UNLISTED DOCTOR</string>
+    <string name="set_name">%1$s (%2$s)</string>
+    <string name="pd">PD</string>
+    <string name="update">UPDATE</string>
+    <string name="starget_logo">Starget+ LOGO</string>
+    <string name="ok">OK</string>
+    <string name="division">Division</string>
+    <string name="rsm_name">RSM</string>
+    <string name="zsm">ZSM</string>
+    <string name="dsm">DSM</string>
+    <string name="designation">(%1$s)</string>
+    <string name="current_version">Current Version</string>
+    <string name="help_desk">About us</string>
+    <string name="excel_logo">Excel LOGO</string>
+    <string name="about_excel">Excel was born in 1987, out of a passionate faith in the value of a business - technology combine. Excel aimed to provide small &amp; large organizations with technology solutions to simplify their business processes, and thereby accelerate growth."\n\n"
+
+Over the years, Excel has developed applications that integrate all or many of the key business processes of many top notch organizations."\n\n"
+
+Over the past decades, we have earned a rich legacy of experience in deploying and maintaining best-of-breed solutions to a wide spectrum of private &amp; public sector clients across geographies, including projects in conjunction with the World Bank and the European Community, apex organizations of the Govt. of India like the Ministry of Civil Aviation, HUDCO, Tamil Nadu Urban Development, Karnataka Housing Board &amp; Madras Port Trust to name a few."\n\n"
+
+The diverse nature of clients &amp; projects provided a platform to hone systems skills with exacting international consultants across various domains, at a global level."\n\n"
+
+In 1993, Excel decided to focus on the Indian Pharmaceutical Industry. The flagship product Medico SD was launched to cater to the Pharma industry. Medico SD evolved into a suite of products catering to all levels of the pharmaceutical supply chain from manufacturing units to Central Warehouses, CFA and Consignee agents, wholesale stockists, institutions &amp; hospitals and retailers."\n\n"
+
+The Medico suite now includes dedicated products to cater to finance, taxation, promotional inputs, sales force automation, business intelligence and decision support systems, secondary sales and product management."\n\n"
+
+Excel today, offers a gamut of solutions not only to the pharma industry, but also to enterprises involved in consumer goods, food, FMCG – an array of products and services that cater to growth oriented enterprises, across industries.</string>
+    <string name="download_report">DOWNLOAD REPORT</string>
+    <string name="for_a_month">For a Month</string>
+    <string name="calendar_year">Calendar Year</string>
+    <string name="brand_sale">BrandWise Sales</string>
+    <string name="sal">GROSS SAL</string>
+    <string name="sre">SRE</string>
+    <string name="ebs">EBS</string>
+    <string name="net">NET</string>
+    <string name="tgt">TGT</string>
+    <string name="leave_without_pay">010</string>
+    <string name="duplicate_consignment">consignment no is already present still want to proceed ?</string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Choose a Item</item>
+        <item>Drop Down List 1</item>
+        <item>Drop Down List 2</item>
+        <item>Drop Down List 3</item>
+        <item>Drop Down List 5</item>
+        <item>Drop Down List 6</item>
+        <item>Drop Down List 7</item>
+        <item>Drop Down List 8</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">WareHouseSelection</string>
+    <string name="menu_slideshow">About Us</string>
+    <string name="confirm">Confirm</string>
+
+</resources>
