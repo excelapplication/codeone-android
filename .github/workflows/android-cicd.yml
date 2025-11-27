@@ -9,6 +9,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+      KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+      KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+      KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      PLAY_STORE_JSON: ${{ secrets.PLAY_STORE_JSON }}
 
     steps:
       - name: Checkout Code
@@ -21,8 +27,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Decode Keystore
-        run: |
-          echo "$KEYSTORE_BASE64" | base64 --decode > my-release-key.jks
+        run: echo "$KEYSTORE_BASE64" | base64 --decode > my-release-key.jks
 
       - name: Create service_account.json
         run: echo "$PLAY_STORE_JSON" > service_account.json
