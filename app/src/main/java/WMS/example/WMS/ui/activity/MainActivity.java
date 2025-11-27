@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
 
-     View headerView = navigationView.inflateHeaderView(R.layout.nav_header_main);
-    ImageView ware_house = (ImageView) headerView.findViewById(R.id.ware_imageView);
+//     View headerView = navigationView.inflateHeaderView(R.layout.nav_header_main);
+//    ImageView ware_house = (ImageView) headerView.findViewById(R.id.ware_imageView);
 
         // implement setNavigationItemSelectedListener event on NavigationView
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -85,14 +85,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ware_house.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                startActivity(new Intent(MainActivity.this, WarehouseSelectionActivity.class));
-              //  Toast.makeText(getApplicationContext(), "Hello warehouse", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        ware_house.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                startActivity(new Intent(MainActivity.this, WarehouseSelectionActivity.class));
+//              //  Toast.makeText(getApplicationContext(), "Hello warehouse", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
