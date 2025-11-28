@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-        debug {
-            storeFile file('D:\\Medico-sfa-key_store-path\\Medico SFA\\MedicoApplicationKeyStore.jks')
-            storePassword 'Sunbeam@123'
-            keyPassword 'Sunbeam@123'
-            keyAlias 'key0'
-        }
+//        debug {
+//            storeFile file('D:\\Medico-sfa-key_store-path\\Medico SFA\\MedicoApplicationKeyStore.jks')
+//            storePassword 'Sunbeam@123'
+//            keyPassword 'Sunbeam@123'
+//            keyAlias 'key0'
+//        }
 
     }
     namespace  'com.codeone.wms'
