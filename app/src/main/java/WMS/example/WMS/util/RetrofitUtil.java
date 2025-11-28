@@ -96,9 +96,8 @@ public class RetrofitUtil {
 
         }
     };
+    
     public static OkHttpClient getClient() {
-
-
 
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
@@ -107,22 +106,12 @@ public class RetrofitUtil {
                 .readTimeout(1000, TimeUnit.SECONDS)
                 .writeTimeout(1000, TimeUnit.SECONDS)
                 .connectTimeout(1000, TimeUnit.SECONDS)
-
-                // Your old interceptor
-                .addInterceptor(new HttpInterceptor(
-                        "rzp_test_TnZlTbSNpfSSLf",
-                        "N9CFlKwPRV1RDzjiGXpWsVwU"
-                ))
-
                 // Add JWT Authorization header
                 .addInterceptor(new TokenInterceptor())
-
                 // Auto refresh token on 401
                 .authenticator(new TokenAuthenticator())
-
                 // Logging
                 .addInterceptor(logging)
-
                 .build();
     }
 
