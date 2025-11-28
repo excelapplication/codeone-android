@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context="com.example.WMS.WMS.example.WMS.ui.activity.SplashScreenActivity">
+    tools:context="com.codeone.wms.WMS.example.WMS.ui.activity.SplashScreenActivity">
 
     <ImageView
         android:id="@+id/imageView"

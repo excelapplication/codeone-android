@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import WMS.example.WMS.ui.activity.HomePageActivity;
 import WMS.example.WMS.ui.activity.WarehouseSelectionActivity;

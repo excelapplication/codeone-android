@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import WMS.example.WMS.ui.viewmodel.PutAwayViewModel;
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 public class MainScannerActivittiv  extends AppCompatActivity {
     ImageButton scanbtn;

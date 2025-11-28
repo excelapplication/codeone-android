@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import WMS.example.WMS.repository.local.model.Wms_trf_dtl;
 import WMS.example.WMS.repository.local.model.Wms_trf_hdr;

@@ -37,13 +37,13 @@ import WMS.example.WMS.ui.adapter.WmsStorageSumAdapter;
 import WMS.example.WMS.ui.model.WmsStorageSummary;
 import WMS.example.WMS.util.ApplicationSharedPreferences;
 
-import com.example.WMS.R;
 
 import WMS.example.WMS.util.ApplicationConstants;
 import WMS.example.WMS.util.RetrofitUtil;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
+import com.codeone.wms.R;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

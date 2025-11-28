@@ -5,6 +5,9 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <queries>
+        <package android:name="com.codeone.wms" />
+    </queries>
     <application
         android:name="WMS.example.WMS.ContextApplication"
         android:allowBackup="true"

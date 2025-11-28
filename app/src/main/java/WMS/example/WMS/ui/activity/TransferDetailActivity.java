@@ -14,7 +14,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import WMS.example.WMS.repository.local.model.Wms_trf_dtl;
 import WMS.example.WMS.ui.viewmodel.PutAwayViewModel;

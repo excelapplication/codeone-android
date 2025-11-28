@@ -6,7 +6,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

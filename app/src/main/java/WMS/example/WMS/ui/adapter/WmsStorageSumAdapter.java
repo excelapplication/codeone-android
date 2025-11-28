@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import java.text.Format;
 import java.util.List;

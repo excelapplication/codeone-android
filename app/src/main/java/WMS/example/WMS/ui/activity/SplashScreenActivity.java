@@ -9,7 +9,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import WMS.example.WMS.util.ApplicationSharedPreferences;
-import com.example.WMS.R;
+import com.codeone.wms.R;
 import WMS.example.WMS.util.ApplicationConstants;
 import WMS.example.WMS.util.SecurePrefs;
 

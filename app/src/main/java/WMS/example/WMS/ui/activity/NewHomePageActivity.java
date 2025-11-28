@@ -38,7 +38,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 import com.google.android.material.navigation.NavigationView;
 
 import java.text.DecimalFormat;

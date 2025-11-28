@@ -18,7 +18,7 @@ import WMS.example.WMS.ui.activity.PutAwayActivity;
 import WMS.example.WMS.ui.viewmodel.PutAwayViewModel;
 import WMS.example.WMS.util.MedicoResources;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import java.util.List;
 

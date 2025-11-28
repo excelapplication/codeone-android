@@ -26,7 +26,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import java.util.ArrayList;
 import java.util.List;

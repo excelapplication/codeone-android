@@ -39,7 +39,7 @@ import WMS.example.WMS.ui.model.WareHouseDetail;
 import WMS.example.WMS.ui.viewmodel.HomePageViewModel;
 import WMS.example.WMS.ui.viewmodel.WareHouseSelectionViewModel;
 import WMS.example.WMS.util.ApplicationSharedPreferences;
-import com.example.WMS.R;
+import com.codeone.wms.R;
 import com.google.android.material.navigation.NavigationView;
 
 import WMS.example.WMS.util.CustomViewPager2;

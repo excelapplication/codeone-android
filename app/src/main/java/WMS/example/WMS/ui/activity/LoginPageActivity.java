@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 import WMS.example.WMS.repository.local.model.UserMaster;
 import WMS.example.WMS.ui.viewmodel.LoginViewModel;
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 
 import WMS.example.WMS.util.ActivityUtil;

@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 import WMS.example.WMS.ui.model.WareHouseDetail;
 import WMS.example.WMS.ui.viewmodel.PutAwayViewModel;
 import WMS.example.WMS.ui.viewmodel.WareHouseSelectionViewModel;

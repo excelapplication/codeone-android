@@ -17,7 +17,7 @@
     android:orientation="vertical"
     android:theme="@style/ToolBarTheme"
     android:weightSum="100"
-    tools:context="com.example.WMS.WMS.example.WMS.ui.activity.HomePageActivity">
+    tools:context="com.codeone.wms.WMS.example.WMS.ui.activity.HomePageActivity">
 
 
 <!--    &lt;!&ndash;Toolbar Code&ndash;&gt;-->

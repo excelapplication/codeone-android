@@ -1,7 +1,7 @@
 package WMS.example.WMS.ui.activity;
 
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 public class MyData {
 

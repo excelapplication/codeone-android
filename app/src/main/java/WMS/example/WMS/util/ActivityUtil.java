@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 public class ActivityUtil {
 

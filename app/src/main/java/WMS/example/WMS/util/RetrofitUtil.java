@@ -13,6 +13,7 @@ import androidx.room.Room;
 import androidx.room.migration.Migration;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
+import okhttp3.CertificatePinner;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.logging.HttpLoggingInterceptor;
@@ -114,6 +115,26 @@ public class RetrofitUtil {
                 .addInterceptor(logging)
                 .build();
     }
+
+//    public static OkHttpClient getClient() {
+//
+//        HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+//        logging.setLevel(HttpLoggingInterceptor.Level.BODY);
+//
+//        CertificatePinner certificatePinner = new CertificatePinner.Builder()
+//                .add("sampro-pfizerindia.com", "sha256/xxxxxxxxxxxxxxxxxxxxxxx")
+//                .build();
+//
+//        return new OkHttpClient.Builder()
+//                .readTimeout(1000, TimeUnit.SECONDS)
+//                .writeTimeout(1000, TimeUnit.SECONDS)
+//                .connectTimeout(1000, TimeUnit.SECONDS)
+//                .addInterceptor(new TokenInterceptor())  // JWT Authorization
+//                .authenticator(new TokenAuthenticator()) // Auto token refresh
+//                .certificatePinner(certificatePinner)     // Certificate pinning
+//                .addInterceptor(logging)                  // Logging
+//                .build();
+//    }
 
 
 

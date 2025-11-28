@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 public class TransactionsActivity extends AppCompatActivity {
 

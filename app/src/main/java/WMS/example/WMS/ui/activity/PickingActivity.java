@@ -33,7 +33,7 @@ import WMS.example.WMS.repository.local.model.Wms_Tran_HDR;
 import WMS.example.WMS.ui.adapter.PutAwayListAdapter;
 import WMS.example.WMS.ui.model.PickslipBean;
 import WMS.example.WMS.ui.viewmodel.PickingViewModel;
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

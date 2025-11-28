@@ -13,7 +13,7 @@ import WMS.example.WMS.repository.local.model.Wms_Tran_DTL;
 import WMS.example.WMS.ui.viewmodel.PickingViewModel;
 import WMS.example.WMS.util.MedicoResources;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 public class PickingProductActivity extends AppCompatActivity {
     TextView Bin_No, Date,Tran_type,Batch_Name;

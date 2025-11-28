@@ -36,7 +36,7 @@ import WMS.example.WMS.util.ApplicationConstants;
 
 import WMS.example.WMS.util.RetrofitUtil;
 
-import com.example.WMS.R;
+import com.codeone.wms.R;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;

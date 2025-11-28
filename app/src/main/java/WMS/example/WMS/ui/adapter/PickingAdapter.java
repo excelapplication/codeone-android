@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import WMS.example.WMS.repository.local.model.Wms_Tran_DTL;
 import WMS.example.WMS.ui.activity.PickingActivity;
 import WMS.example.WMS.ui.activity.PickingProductActivity;
-import com.example.WMS.R;
+import com.codeone.wms.R;
 
 import java.util.List;
 
